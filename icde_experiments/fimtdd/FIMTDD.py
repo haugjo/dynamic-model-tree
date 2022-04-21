@@ -8,6 +8,14 @@ import warnings
 
 
 class FIMTDDClassifier:
+    """ FIMT-DD Classifier.
+
+    A FIMT-DD classification model based on the description and pseudo code by
+
+    Ikonomovska, E., Gama, J. & Džeroski, S. Learning model trees from evolving data streams.
+    Data Min Knowl Disc 23, 128–168 (2011). https://doi.org/10.1007/s10618-010-0201-y
+
+    """
     def __init__(self, attr, classes, delta=0.01, n_min=1, tau=0.05, lr=0.01):
         # Set up root node
         self.classes = classes
