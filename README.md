@@ -1,10 +1,9 @@
 # Dynamic Model Tree
 This repository contains an implementation of the Dynamic Model Tree (DMT) that is introduced in
 
-*Haug, Johannes, Klaus Broelemann, and Gjergji Kasneci. "Dynamic Model Tree for Interpretable Data Stream Learning." arXiv preprint arXiv:2203.16181 (2022).*
+*Johannes Haug, Klaus Broelemann and Gjergji Kasneci, "Dynamic Model Tree for Interpretable Data Stream Learning," 2022 IEEE 38th International Conference on Data Engineering (ICDE), 2022, pp. 2562-2574, doi: 10.1109/ICDE53745.2022.00237.*
 
-The DMT has been accepted for the research track of the **International Conference on Data Engineering 2022 (ICDE)**. The paper has not yet been officially published.
-In the meantime, an archived version of the paper can be found on [ArXiv](https://arxiv.org/abs/2203.16181). Please refer to our paper when using this implementation.
+The paper can be found on [IEEE](https://ieeexplore.ieee.org/document/9835609) and [arXiv](https://arxiv.org/abs/2203.16181). Please refer to our paper when using this implementation.
 
 ## Use the DMT for Online Learning
 The DMT implementation provided here uses (multinomial) logit simple models and the negative log-likelihood loss, as described in the paper.
