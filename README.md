@@ -5,6 +5,8 @@ This repository contains an implementation of the Dynamic Model Tree (DMT) that 
 
 The paper can be found on [IEEE](https://ieeexplore.ieee.org/document/9835609) and [arXiv](https://arxiv.org/abs/2203.16181). Please refer to our paper when using this implementation.
 
+>**Note:** A Dynamic Model Tree classifier is now also included in the [float](https://github.com/haugjo/float) evaluation framework.
+
 ## Use the DMT for Online Learning
 The DMT implementation provided here uses (multinomial) logit simple models and the negative log-likelihood loss, as described in the paper.
 The DMT can be used for both binary and multiclass classification.
